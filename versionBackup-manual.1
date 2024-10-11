@@ -1,0 +1,64 @@
+.TH VERSIONBACKUP 1 "October 2023" "versionBackup"
+.SH NAME
+versionBackup.sh \- Backup and version control script.
+.SH SYNOPSIS
+versionBackup.sh [\-l | \-r <file> | \-d | \-t | \-m | \-k] 
+.br
+versionBackup.sh [filename]
+.SH DESCRIPTION
+versionBackup is a bash script that copies files to a backup directory. It also  provides command-line and menu-driven options for managing and monitoring a backup directory..
+.SS Options
+.TP
+\fB-l\fP
+list the contents of the backup directory.
+.TP
+\fB-r <file>\fP
+recovers a specified file from the backup directory an copies it to the current directory.
+.TP
+\fB-d\fP
+interactively  loops  through  the backup directory and provides options to to delete each file.
+zoomlevel is 1.
+.TP
+\fB-t\fP
+prints the total usage of the backup directory.
+.TP
+\fB-m\fP
+starts the monitor script on a new terminal window which monitors change on the backup directory.
+.TP
+\fB-k\fP
+terminates the monitor script if it was running.
+.TP
+\fIfilename\fR
+Copies specified file to backup directory and assigns it an appropriate version number.
+.SS Menu Options
+.TP
+\fBlist\fP
+list the contents of the backup directory.
+.TP
+\fBrecover\fP
+recovers a specified file from the backup directory an copies it to the current directory.
+.TP
+\fBdelete\fP
+interactively  loops  through  the backup directory and provides options to to delete each file.
+zoomlevel is 1.
+.TP
+\fBtotal\fP
+prints the total usage of the backup directory.
+.TP
+\fBmonitor\fP
+starts the monitor script on a new terminal window which monitors change on the backup directory.
+.TP
+\fBkill\fP
+terminates the monitor script if it was running.
+.TP
+\fBkill\fP
+exits the versionBackup script
+.SH AUTHOR
+This script was created by Mangaliso Linda (S2110978).
+.SH REPORTING BUGS
+Report any bugs to m.dlamini@alustudent.com.
+.SH COPYRIGHT
+This script is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+.SH DISCLAIMER
+This script is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

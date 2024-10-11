@@ -1,0 +1,39 @@
+MONITOR.SH(1)               General Commands Manual              MONITOR.SH(1)
+
+
+
+NNAAMMEE
+       monitor.sh - Monitor changes in a backup directory
+
+SSYYNNOOPPSSIISS
+       mmoonniittoorr..sshh
+
+DDEESSCCRRIIPPTTIIOONN
+       mmoonniittoorr..sshh is a Bash script that monitors changes in a specified backup
+       directory. It checks for the creation, modification,  and  deletion  of
+       files in the directory and provides a summary of these changes.
+
+OOPPTTIIOONNSS
+       None
+
+AAUUTTHHOORR
+       This script was created by Mangaliso Linda (S2110978).
+
+RREEPPOORRTTIINNGG BBUUGGSS
+       Report any bugs to m.dlamini@alustudent.com.
+
+CCOOPPYYRRIIGGHHTT
+       This  script is free software; you can redistribute it and/or modify it
+       under the terms of the GNU General Public License as published  by  the
+       Free  Software Foundation; either version 2 of the License, or (at your
+       option) any later version.
+
+DDIISSCCLLAAIIMMEERR
+       This script is distributed in the hope that  it  will  be  useful,  but
+       WITHOUT  ANY  WARRANTY;  without  even  the  implied  warranty  of MER-
+       CHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+
+
+Version 1.0                      October 2023                    MONITOR.SH(1)

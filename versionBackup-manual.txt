@@ -1,0 +1,78 @@
+VERSIONBACKUP(1)            General Commands Manual           VERSIONBACKUP(1)
+
+
+
+NNAAMMEE
+       versionBackup.sh - Backup and version control script.
+
+SSYYNNOOPPSSIISS
+       versionBackup.sh [-l | -r <file> | -d | -t | -m | -k]
+       versionBackup.sh [filename]
+
+DDEESSCCRRIIPPTTIIOONN
+       versionBackup is a bash script that copies files to a backup directory.
+       It also  provides command-line and menu-driven options for managing and
+       monitoring a backup directory..
+
+   OOppttiioonnss
+       --ll     list the contents of the backup directory.
+
+       --rr <<ffiillee>>
+              recovers a specified file from the backup directory an copies it
+              to the current directory.
+
+       --dd     interactively  loops  through  the backup directory and provides
+              options to to delete each file.  zoomlevel is 1.
+
+       --tt     prints the total usage of the backup directory.
+
+       --mm     starts  the  monitor script on a new terminal window which moni-
+              tors change on the backup directory.
+
+       --kk     terminates the monitor script if it was running.
+
+       _f_i_l_e_n_a_m_e
+              Copies specified file to backup  directory  and  assigns  it  an
+              appropriate version number.
+
+   MMeennuu OOppttiioonnss
+       lliisstt   list the contents of the backup directory.
+
+       rreeccoovveerr
+              recovers a specified file from the backup directory an copies it
+              to the current directory.
+
+       ddeelleettee interactively  loops  through  the backup directory and provides
+              options to to delete each file.  zoomlevel is 1.
+
+       ttoottaall  prints the total usage of the backup directory.
+
+       mmoonniittoorr
+              starts  the  monitor script on a new terminal window which moni-
+              tors change on the backup directory.
+
+       kkiillll   terminates the monitor script if it was running.
+
+       kkiillll   exits the versionBackup script
+
+AAUUTTHHOORR
+       This script was created by Mangaliso Linda (S2110978).
+
+RREEPPOORRTTIINNGG BBUUGGSS
+       Report any bugs to m.dlamini@alustudent.com.
+
+CCOOPPYYRRIIGGHHTT
+       This script is free software; you can redistribute it and/or modify  it
+       under  the  terms of the GNU General Public License as published by the
+       Free Software Foundation; either version 2 of the License, or (at  your
+       option) any later version.
+
+DDIISSCCLLAAIIMMEERR
+       This  script  is  distributed  in  the hope that it will be useful, but
+       WITHOUT ANY  WARRANTY;  without  even  the  implied  warranty  of  MER-
+       CHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+
+
+versionBackup                    October 2023                 VERSIONBACKUP(1)
